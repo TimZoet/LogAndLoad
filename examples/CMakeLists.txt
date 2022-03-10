@@ -1,0 +1,6 @@
+add_subdirectory(categories)
+add_subdirectory(dynamic_parameters)
+add_subdirectory(multi_stream)
+add_subdirectory(ordering)
+add_subdirectory(regions)
+add_subdirectory(source_info)
