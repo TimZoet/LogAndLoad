@@ -1,3 +1,6 @@
 [submodule "cmake"]
 	path = cmake
 	url = git@github.com:TimZoet/cmake-module.git
+[submodule "modules/logandload"]
+	path = modules/logandload
+	url = git@github.com:TimZoet/logandload-module.git
