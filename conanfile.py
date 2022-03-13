@@ -64,10 +64,11 @@ class BetterTestConan(ConanFile):
         base.requirements(self)
         
         self.requires("common/1.0.0@timzoet/stable")
+        self.requires("dot/1.0.0@timzoet/stable")
     
     def package_info(self):
         self.cpp_info.components["core"].libs = ["logandload"]
-        self.cpp_info.components["core"].requires = ["common::common"]
+        self.cpp_info.components["core"].requires = ["common::common", "dot::dot"]
     
     def generate(self):
         base = self.python_requires["pyreq"].module.BaseConan
