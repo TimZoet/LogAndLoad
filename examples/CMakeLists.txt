@@ -1,3 +1,4 @@
+add_subdirectory(analyze)
 add_subdirectory(categories)
 add_subdirectory(dynamic_parameters)
 add_subdirectory(multi_stream)
