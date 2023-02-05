@@ -50,9 +50,8 @@ class BetterTestConan(ConanFile):
     def export_sources(self):
         copy(self, "CMakeLists.txt", self.recipe_folder, self.export_sources_folder)
         copy(self, "license", self.recipe_folder, self.export_sources_folder)
+        copy(self, "logandloadVersionString.cmake", self.recipe_folder, self.export_sources_folder)
         copy(self, "readme.md", self.recipe_folder, self.export_sources_folder)
-        copy(self, "cmake/*", self.recipe_folder, self.export_sources_folder)
-        copy(self, "modules/CMakeLists.txt", self.recipe_folder, self.export_sources_folder)
         copy(self, "modules/*", self.recipe_folder, self.export_sources_folder)
     
     def config_options(self):

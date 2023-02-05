@@ -1,8 +1,6 @@
 find_package(common REQUIRED)
 find_package(dot REQUIRED)
 
-include(logandloadVersionString)
-
 set(NAME logandload)
 set(TYPE module)
 set(INCLUDE_DIR "include/logandload")
