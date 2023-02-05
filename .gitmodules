@@ -1,3 +1,0 @@
-[submodule "modules/logandload"]
-	path = modules/logandload
-	url = git@github.com:TimZoet/logandload-module.git
